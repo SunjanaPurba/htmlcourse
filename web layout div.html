@@ -15,6 +15,13 @@
             height: 200px;
             background-color:tomato;
         }
+        .logo{
+            width: 200px;
+            height: 130px;
+            border: 1px solid black;
+            margin: 10px;
+            float: left;
+        }
         .nav{
             width: 400px;
             height: 30px;
@@ -71,12 +78,38 @@
             height: 200px;
             background-color: steelblue;
             clear: both;
+            text-align: center;
+        }
+        .footer .block{
+            width: 300px;
+            height: 180px;
+            border: 1px solid black;
+            float: left;
+            position: relative;
+            top: 10px;
+            left: 10px;
+        }
+        .footer .block1{
+            width: 150px;
+            height: 180px;
+            border: 1px solid black;
+            float: left;
+            margin-top: 10px;
+        }
+        .footer .block2{
+            width: 150px;
+            height: 180px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 10px;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
     <div class="main">
-        <div class="header">it is header
+        <div class="header">
+            <div class="logo"></div>
 
             <div class="nav">nav</div>
         </div>
@@ -85,9 +118,18 @@
             <div class="aside">aside</div>
             <div class="main_content">main content
 
-                <div class="section1">section1</div>
-                <div class="section2">section2</div>
-                <div class="section3">section3</div>
+                <div class="section1">
+                    <h3>what is html</h3>
+                    <p>html is the.....</p>
+                </div>
+                <div class="section2">
+                    <h3>what is html tags</h3>
+                    <p>html is the.....</p>
+                </div>
+                <div class="section3">
+                    <h3>what is html heading and paragraph..</h3>
+                    <p>html is the.....</p>
+                </div>
 
             </div>
 
@@ -96,7 +138,18 @@
 
         </div>
 
-        <div class="footer">it is footer</div>
+        <div class="footer">
+
+            <div class="block"></div>
+
+            <div class="block1">
+                <h4>About us</h4>
+            </div>
+
+            <div class="block2">
+                <h4>Useful link</h4>
+            </div>
+        </div>
 
     </div>
 </body>
